@@ -5,7 +5,6 @@
 obj_enemy.image_xscale = -1;
 
  // Morrendo
- 
  if (hp <= 0) 
  {
 	instance_destroy();

@@ -21,3 +21,4 @@ max_exp = 10;
 ex = 0;
 lvl = 1;
 // sorte = .003
+defendendo = false;

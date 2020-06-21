@@ -14,11 +14,16 @@ if (room == rm_batalha_fora)
 		sprite_index = spr_player_right;
 		image_index = 0;
 		image_speed = 0;
+		alarm[0] = 5;
 	}
 	
 	// Criando os inimigos
 	if (global.inimigos != 0)
 	{
+		
+		global.inimigo_batalha = ds_list_create(); // criando lista dos inimigos
+		global.heroi_batalha = ds_list_create(); // criando lista dos herois
+
 		var numero = array_length_1d(global.inimigos) - 1;
 		var repete = irandom_range(1, global.qtdinimigos);
 		
@@ -26,12 +31,24 @@ if (room == rm_batalha_fora)
 		{
 			var inimigo_criado = irandom(numero)
 			var inimigo = instance_create_layer(room_width - 100, 100 + (i * 100), "Enemy", global.inimigos[inimigo_criado]);
-			inimigo.alarm[0] = 5  + (i * 2);
+			
+			inimigo.alarm[0] = 5 + (i * 2);
 			inimigo.numeroz = i;
 		}
 	}
 }
 else if (direcao != 0)
 {
+	// Destruindo lista dos inimigos
+	ds_list_destroy(global.inimigo_batalha);
+	ds_list_destroy(global.heroi_batalha);
+	
+	with(obj_control)
+	{
+		posicao = 0;
+		posicao_i = 0;
+		posicao_h = 0;
+	}
+
 	obj_player.sprite_index = direcao;
 }

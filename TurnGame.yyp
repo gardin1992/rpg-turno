@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "1d8f94ef-4b43-4c14-ae2b-90c15c182c47",
+            "Value": {
+                "id": "bb34d13e-c200-4f9e-b723-723ce62ae5fb",
+                "resourcePath": "scripts\\src_heroi_batalha\\src_heroi_batalha.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "22f87284-4b89-4e24-ba60-c010cfec5681",
+            "Value": {
+                "id": "e2c4eb08-cc92-4ebd-b100-6b9931e00e93",
+                "resourcePath": "rooms\\rm_dg_01\\rm_dg_01.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2568b230-6c12-40d9-af45-7b195e58085c",
             "Value": {
                 "id": "46a229b1-b815-48ab-87d0-78d11e3e4d7e",
@@ -124,6 +140,30 @@
                 "id": "13827281-d21a-4d29-8d74-9e07980850e0",
                 "resourcePath": "views\\280dc4c4-5ba5-4d76-9e7a-433cba4101ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2aa34dd5-8698-4dd3-847f-50258b08e881",
+            "Value": {
+                "id": "aff5ccdb-57c8-40d5-ae14-5f5c06235849",
+                "resourcePath": "scripts\\src_inimigo_batalha\\src_inimigo_batalha.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "37154af7-7472-4542-b27e-143fbcdfcf76",
+            "Value": {
+                "id": "65aa8332-4fc1-4517-838b-5e6694f05265",
+                "resourcePath": "rooms\\rm_model_dungeon\\rm_model_dungeon.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "392dcee0-1636-4d25-9310-8ea37ce18bdc",
+            "Value": {
+                "id": "31586c62-7959-4384-89ac-30adeab6f3c6",
+                "resourcePath": "tilesets\\dungeon_02\\dungeon_02.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -247,6 +287,14 @@
             }
         },
         {
+            "Key": "83094bdf-cad6-4697-945a-d21d8e37f64c",
+            "Value": {
+                "id": "6cf4eccf-8bb5-484f-8d61-a73ec7fb5046",
+                "resourcePath": "sprites\\spr_tile_dungeon_02\\spr_tile_dungeon_02.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84354dc9-3f99-423d-881b-4c40580e7674",
             "Value": {
                 "id": "cd45b9a8-1c4c-47f0-aeed-7c44fd47a389",
@@ -283,6 +331,14 @@
             "Value": {
                 "id": "85f8bd8c-edaf-4f0a-adaf-9ae050fb2467",
                 "resourcePath": "views\\931e4506-816a-4c5f-b7de-a02f7c3bf37d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97f165c4-03c9-418f-b5ea-68b47b36725b",
+            "Value": {
+                "id": "ce1d9a7c-03c3-4169-b6b3-faf0f234ab9d",
+                "resourcePath": "views\\97f165c4-03c9-418f-b5ea-68b47b36725b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -343,6 +399,22 @@
             }
         },
         {
+            "Key": "bd6b26c8-a1e3-4b6e-a240-ffee3ff2675f",
+            "Value": {
+                "id": "573597ec-ae19-483f-895c-0701a2727784",
+                "resourcePath": "tilesets\\ts_dungeon\\ts_dungeon.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "bdbd029d-c2e6-43d8-8d41-de109ebfae4d",
+            "Value": {
+                "id": "419e8b49-18a8-4539-bbf6-9243de363a83",
+                "resourcePath": "sprites\\spr_player_defendendo\\spr_player_defendendo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bee5fd9b-5a8d-4190-9dd0-fadd5dbe5bbc",
             "Value": {
                 "id": "77f24bba-8b15-4c01-8d09-29dee9ab53f2",
@@ -372,6 +444,14 @@
                 "id": "a6caf235-81a3-4e75-9179-f3126f18783b",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c97c76e4-5151-41a0-8050-f73b023db526",
+            "Value": {
+                "id": "6b3eb898-8f00-4246-aa3d-d7c92e370db9",
+                "resourcePath": "views\\37154af7-7472-4542-b27e-143fbcdfcf76-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -423,6 +503,14 @@
             }
         },
         {
+            "Key": "e9082e83-b031-4ca1-abbd-fca6e0899988",
+            "Value": {
+                "id": "60c6824d-18f5-46b5-a9d2-eb6daf5f99ee",
+                "resourcePath": "sprites\\spr_tile_dungeon\\spr_tile_dungeon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec63463c-790d-4b45-9286-e97aa3dbbe75",
             "Value": {
                 "id": "98fd15e4-48ba-4284-929a-7fb4eab1a759",
@@ -447,6 +535,14 @@
             }
         },
         {
+            "Key": "f50b4c4b-2c85-4672-8b8e-198a701d7d57",
+            "Value": {
+                "id": "03ec1533-5a60-44b2-81e9-3f98e8c07fd3",
+                "resourcePath": "scripts\\src_heroi_actions\\src_heroi_actions.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f681b2e5-06cd-44a0-b52f-c445c565cd82",
             "Value": {
                 "id": "264048a6-ac6d-4fe1-a40d-9cb5cdd7a10f",
@@ -456,7 +552,10 @@
         }
     ],
     "script_order": [
-        "57e49def-8f55-456b-b8d6-8723953711e6"
+        "57e49def-8f55-456b-b8d6-8723953711e6",
+        "1d8f94ef-4b43-4c14-ae2b-90c15c182c47",
+        "f50b4c4b-2c85-4672-8b8e-198a701d7d57",
+        "2aa34dd5-8698-4dd3-847f-50258b08e881"
     ],
     "tutorial": ""
 }

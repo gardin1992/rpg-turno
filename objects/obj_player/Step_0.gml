@@ -82,8 +82,15 @@ else
 
 if (room == rm_batalha_fora)
 {
-	if (energia < max_energia) energia += agi / 5;
+	energia += agi / 5;
+	if (energia > max_energia) energia = max_energia;
 	
 	// diminui energia
 	if (mouse_check_button_released(mb_left)) energia = 0;
+	
+	
+}
+
+if (defendendo == true) {
+	sprite_index = spr_player_defendendo;
 }

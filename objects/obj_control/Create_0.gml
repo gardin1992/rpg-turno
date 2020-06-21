@@ -7,8 +7,12 @@ global.ponto_atual = 0;			// onde eu estou agora
 global.inimigos = 0
 global.qtdinimigos = 0;
 
-posicao = 0; // minha posicao na lista
-global.inimigo_batalha = ds_list_create();
+posicao_h = 0; // posicao de herois
+posicao_i = 0; // posicao inimigo
+posicao = 0; // minha posicao da acao
+
+momento = 0; // momento da batalha
+heroi_atual = 0;
 
 fimbatalha = false;
 
