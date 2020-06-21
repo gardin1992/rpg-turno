@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if (dano)
+{
+	if (sumir) image_alpha -= .2;
+	
+	if (!sumir) image_alpha += .2;
+	
+	if (image_alpha<= 0) sumir = false;
+	if (image_alpha >= 1) sumir = true;
+}
 
 obj_enemy.image_xscale = -1;
 

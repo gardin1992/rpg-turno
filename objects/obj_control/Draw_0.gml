@@ -67,6 +67,8 @@ if (room == rm_batalha_fora)
 				inimigo_atual = ds_list_find_value(global.inimigo_batalha, posicao_i);
 				// aplicando dano
 				inimigo_atual.hp -= (heroi_atual.atq - inimigo_atual.def);
+				inimigo_atual.dano = true;
+				inimigo_atual.alarm[1] = room_speed;
 			}
 			
 			if (dselect) momento--;

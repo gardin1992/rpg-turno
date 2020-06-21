@@ -1,6 +1,5 @@
 /// @description Definando as variaveis de controler
 
-life = 10
 spd = 4;
 h_spd = 0;
 v_spd = 0;

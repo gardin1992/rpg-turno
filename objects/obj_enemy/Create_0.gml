@@ -11,4 +11,8 @@ energia = 0;
 ex = 2;
 // lvl = 1;
 
+dano = false;
+sumir = false;
+
+// posicao na lista
 numeroz = 0;
