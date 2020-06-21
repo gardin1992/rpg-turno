@@ -15,7 +15,10 @@ if (room == rm_batalha_fora)
 			// Movendo posicao dos herois
 			src_heroi_batalha(global.heroi_batalha);
 			
-			if (select && ds_list_find_value(global.heroi_batalha, posicao_h).energia >= 99) 
+			if (select 
+				&& ds_list_find_value(global.heroi_batalha, posicao_h).energia >= 99
+				&& heroi_atual == 0
+			) 
 			{
 				momento++;
 				heroi_atual = ds_list_find_value(global.heroi_batalha, posicao_h).energia = 0;;
@@ -45,6 +48,7 @@ if (room == rm_batalha_fora)
 						heroi_atual.defendendo = true;
 						break;
 					case 2:
+						momento = 0;
 						global.batalha = false;
 				}
 			}
