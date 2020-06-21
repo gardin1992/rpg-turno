@@ -17,7 +17,13 @@ inimigo_ataque = 0;
 
 fimbatalha = false;
 
+exp_atual = 0;
+exp_player = 0;
+mostrar_exp = false;
+
 origem = 0;
 origem_x = 0;
 origem_y = 0;  
 direcao = 0;
+
+depth = -1000;

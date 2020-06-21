@@ -3,7 +3,7 @@
 
 event_inherited();
 
-ex = 4;
+ex = 40;
 max_hp = 20;
 hp = max_hp;
 agi = 1;

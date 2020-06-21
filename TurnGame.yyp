@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "5f17ce13-5657-49ee-a1dd-c6ad4d3ca474",
+            "Value": {
+                "id": "ba9e00d6-4eaa-4238-b5e4-275af1952017",
+                "resourcePath": "fonts\\fnt_padrao\\fnt_padrao.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "603819d4-5ab3-473a-a916-1606df844a63",
             "Value": {
                 "id": "4840c5db-05fd-4d59-8d04-69929df84adb",

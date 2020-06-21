@@ -51,6 +51,7 @@ if (room == rm_batalha_fora)
 	if (!instance_exists(obj_enemy) && fimbatalha == false)
 	{
 		fimbatalha = true;
-		alarm[0] = room_speed / 2;
+		mostrar_exp = true;
+		alarm[0] = room_speed * 5;
 	}
 }

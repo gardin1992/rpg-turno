@@ -8,8 +8,7 @@ if (morrer)
 	// deixar sprite vermelha
 	gpu_set_fog(1, c_red, 0, 1);
 	draw_set_alpha(image_alpha);
-	var drawded = draw_sprite(sprite_index, image_index, x, y);
-	drawded.image_xscale = -1;
+	draw_sprite(sprite_index, image_index, x, y);
 	draw_set_alpha(1);
 	gpu_set_fog(0, c_white, 0, 1);
 }

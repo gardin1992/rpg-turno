@@ -13,7 +13,7 @@ def = 1;
 agi = 3; // inteligencia
 max_energia = 100;
 energia = 0;
-ex = 2;
+ex = 20;
 // lvl = 1;
 
 dano = false;
