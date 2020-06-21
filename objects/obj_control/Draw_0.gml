@@ -10,9 +10,14 @@ if (room == rm_batalha_verao)
 		var dselect = keyboard_check_released(ord("Z"));
 
 		// desenhando caixa do menu
+		var container = instance_create_layer(0, room_height-100, "Player", obj_battle_container_btn);
+		container.depth = -20;
+		
+		/*
 		draw_rectangle_color(0, room_height, room_width, room_height - 60, c_teal, c_teal, c_teal, c_teal, false);
 		draw_rectangle_color(0, room_height, room_width, room_height - 60, c_black, c_black, c_black, c_black, true);
-	
+		*/
+			
 		switch(momento)
 		{
 			case 0:

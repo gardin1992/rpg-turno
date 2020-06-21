@@ -62,4 +62,6 @@ if (room == rm_batalha_verao)
 		mostrar_exp = true;
 		alarm[0] = room_speed * 3;
 	}
+			
 }
+
