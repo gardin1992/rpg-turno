@@ -17,7 +17,7 @@ if (!active)
 else
 {
 	active = false;
-	sprite_index = sprite_btn;
+	
 	instance_destroy(menu);
 }
 

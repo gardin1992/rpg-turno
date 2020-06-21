@@ -112,13 +112,15 @@ if (room == rm_batalha_verao)
 else 
 {
 	if (!menu_created) {
-		
 		menu_created = true;
-		// barra de vida
-		instance_create_layer(0, 0, "Player", obj_header_bar);
-		// barra de exp
-		instance_create_layer(0, 0, "Player", obj_amor_bar);
-		// Botao menu
-		instance_create_layer(0, 0, "Player", obj_btn_menu);
+		
+		instance_healt = instance_create_layer(0, 0, "Player", obj_header_bar);
+		instance_healt.depth = -2000;
+		
+		instance_armor = instance_create_layer(0, 0, "Player", obj_amor_bar);
+		instance_armor.depth = -2000;
+		
+		instance_menu = instance_create_layer(0, 0, "Player", obj_btn_menu);
+		instance_menu.depth = -2000;
 	}
 }

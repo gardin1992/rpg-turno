@@ -32,8 +32,7 @@ if (room == rm_batalha_verao)
 		for (var i = 0; i < repete; i++)
 		{
 			var inimigo_criado = irandom(numero)
-			var inimigo = instance_create_layer(room_width - 100, 100 + (i * 100), "Enemy", global.inimigos[inimigo_criado]);
-			
+			var inimigo = instance_create_layer(0, 0, "Enemy", global.inimigos[inimigo_criado]);
 			inimigo.alarm[0] = 5 + (i * 2);
 			inimigo.numeroz = i;
 		}

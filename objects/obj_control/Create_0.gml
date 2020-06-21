@@ -27,3 +27,7 @@ origem_y = 0;
 direcao = 0;
 
 depth = -1000;
+
+instance_healt = 0;
+instance_armor = 0;
+instance_menu = 0;
