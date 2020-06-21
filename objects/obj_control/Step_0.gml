@@ -19,7 +19,17 @@ if (global.batalha == false)
 		direcao = obj_player.sprite_index;
 		
 		var t = instance_create_layer(x, y, "Player", obj_transicao);
-		t.destino = rm_batalha_fora;
+		
+		// definindo as telas de batalha
+		var rooms = ds_list_create();
+		ds_list_add(rooms, rm_batalha_inverno);
+		ds_list_add(rooms, rm_batalha_outono);
+		ds_list_add(rooms, rm_batalha_primavera);
+		ds_list_add(rooms, rm_batalha_verao);
+		
+		var destino_ = ds_list_find_value(rooms, irandom(ds_list_size(rooms)))
+		
+		t.destino = rm_batalha_verao;
 		t.xx = 100;
 		t.yy = 200;
 		t.cor = c_white;
@@ -30,7 +40,7 @@ if (global.batalha == false)
 	}
 }
 
-if (room == rm_batalha_fora)
+if (room == rm_batalha_verao)
 {
 	// Saind da batalha
 	if (global.batalha == false)

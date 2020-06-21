@@ -4,8 +4,9 @@
     "mvc": "1.1",
     "name": "6da73212-d597-4377-8d14-7d6e414569ad",
     "children": [
-        "d833fb39-6bed-44fe-b593-646b47e29379",
-        "2faf40d5-6682-4b27-889d-a6e0b64d58e0"
+        "2faf40d5-6682-4b27-889d-a6e0b64d58e0",
+        "cf1a1cad-ce3c-4859-834e-e00cf351425d",
+        "f7707bc4-6931-452e-b016-c35faf03fcb9"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemy",

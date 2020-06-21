@@ -2,7 +2,7 @@
 
 draw_self(); // desenhando o player
 
-if (room == rm_batalha_fora)
+if (room == rm_batalha_verao)
 {
 	// supeior esquerda do player
 	var xx = x - sprite_xoffset;

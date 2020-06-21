@@ -9,7 +9,7 @@ if (!instance_exists(obj_control))
 }
 
 // definindo inimigos
-global.inimigos = [obj_enemy, obj_enemy02];
+global.inimigos = [obj_enemy_smalldragon];
 global.qtdinimigos = 1;
 
 if (room == rm_model_out)

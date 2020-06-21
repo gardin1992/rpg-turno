@@ -1,6 +1,6 @@
 /// @description Menu da batalha
 
-if (room == rm_batalha_fora)
+if (room == rm_batalha_verao)
 {
 	if (!fimbatalha)
 	{

@@ -7,7 +7,7 @@ obj_player.x = xx;
 obj_player.y = yy;
 
 // entrando na room de batalha
-if (room == rm_batalha_fora)
+if (room == rm_batalha_verao)
 {
 	with(obj_player)
 	{

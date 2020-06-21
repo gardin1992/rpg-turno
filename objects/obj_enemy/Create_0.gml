@@ -26,6 +26,7 @@ numeroz = 0;
 
 defendendo = false;
 
+// Definindo as Sprites
 sprite_luta = spr_enemyIdle;
 sprite_atacando = spr_enemy_01_ataque;
 sprite_defendendo = spt_enemy_01_defendendo;

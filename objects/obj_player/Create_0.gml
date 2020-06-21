@@ -15,9 +15,16 @@ v_spd = 0;
 ativo = true;
 movendo = false;
 
-sprite_luta = spr_player_right;
-sprite_atacando = spr_player_atacando;
-sprite_defendendo = spr_player_defendendo;
+// Definindo as Sprites
+sprite_left = spr_warrior_left;
+sprite_right = spr_warrior_right;
+sprite_back = spr_warrior_back;
+sprite_right = spr_warrior_right;
+
+sprite_luta = spr_warrior_idle_right;
+sprite_atacando = spr_warrior_attack_right_01;
+sprite_defendendo = spr_warrior_right;
+sprite_morrendo = spr_warrior_right;
 
 inimigo_atual = noone;
 estado = heroState.NORMAL;

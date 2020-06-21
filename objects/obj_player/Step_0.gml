@@ -56,32 +56,32 @@ if (ativo == true && global.batalha == false) {
 	
 	if (h_spd > 0)
 	{
-		sprite_index = spr_player_right;
+		sprite_index = spr_warrior_right;
 	}
 	else if (h_spd < 0)
 	{
-		sprite_index = spr_player_left;
+		sprite_index = spr_warrior_left;
 	}
 	
 	if (v_spd > 0) 
 	{
-		sprite_index = spr_player_down;
+		sprite_index = spr_warrior_front;
 	}
 	else if (v_spd < 0)
 	{
-		sprite_index = spr_player_top;
+		sprite_index = spr_warrior_back;
 	}
 	
 #endregion
 }
-else if (room != rm_batalha_fora)
+else if (room != rm_batalha_verao)
 {
 	image_index = 0;
 	image_speed = 0;
 }
 
 #region Batalha
-if (room == rm_batalha_fora)
+if (room == rm_batalha_verao)
 {
 	switch(estado)
 	{

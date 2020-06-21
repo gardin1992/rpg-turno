@@ -39,10 +39,26 @@
             }
         },
         {
+            "Key": "02ce0437-249e-49d3-831a-2a230a761f14",
+            "Value": {
+                "id": "a823db3d-00b7-42de-8701-1ef8e177c123",
+                "resourcePath": "objects\\obj_enemy_dragon\\obj_enemy_dragon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "03a802cd-bf5e-4b9a-9bab-c0eab73029cd",
             "Value": {
                 "id": "30822021-5ffd-450e-8b9d-d770cd4d52c2",
                 "resourcePath": "sprites\\spr_tile_mario\\spr_tile_mario.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "047b7c1b-24e1-4672-9898-b5ea4561b7cf",
+            "Value": {
+                "id": "c23304ed-57c7-4bb3-ab8b-e2d5ec0a07c7",
+                "resourcePath": "sprites\\spr_warrior_attack_right_02\\spr_warrior_attack_right_02.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -59,6 +75,14 @@
             "Value": {
                 "id": "1e51c40e-0485-4ea0-902d-6b5d3ae9051d",
                 "resourcePath": "sprites\\spr_tile_atlas1\\spr_tile_atlas1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0b2c78dd-a1d6-405f-8395-d75a4a03cba9",
+            "Value": {
+                "id": "45a0c49a-d2a8-44a8-baea-b362cf68d586",
+                "resourcePath": "sprites\\spr_bg_inverno\\spr_bg_inverno.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -119,6 +143,30 @@
             }
         },
         {
+            "Key": "23538498-200c-4eb4-835d-a5329ce81a87",
+            "Value": {
+                "id": "a769bc26-7611-4704-a049-b476a7facb1d",
+                "resourcePath": "sprites\\spr_smalldragon_hurt\\spr_smalldragon_hurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23d487f9-90fb-40ae-9ea4-d195ff04d5b9",
+            "Value": {
+                "id": "fff0df2a-f962-4323-9f18-50bc3416a372",
+                "resourcePath": "sprites\\spr_warrior_idle_right\\spr_warrior_idle_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2421d1fe-fa79-4d33-a487-5cea2c892f79",
+            "Value": {
+                "id": "905a133a-0eb2-4821-96d0-0264d4c269ab",
+                "resourcePath": "rooms\\rm_batalha_inverno\\rm_batalha_inverno.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2568b230-6c12-40d9-af45-7b195e58085c",
             "Value": {
                 "id": "46a229b1-b815-48ab-87d0-78d11e3e4d7e",
@@ -167,6 +215,14 @@
             }
         },
         {
+            "Key": "31905436-08f6-4375-a8f4-759264715e37",
+            "Value": {
+                "id": "e92a8f16-791b-4746-a598-cc2d956f266f",
+                "resourcePath": "views\\31905436-08f6-4375-a8f4-759264715e37.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "37154af7-7472-4542-b27e-143fbcdfcf76",
             "Value": {
                 "id": "65aa8332-4fc1-4517-838b-5e6694f05265",
@@ -183,27 +239,51 @@
             }
         },
         {
+            "Key": "43806b28-e210-47c6-83c5-4fcf54dfb428",
+            "Value": {
+                "id": "db38ad0d-7464-4a92-bef8-df65828ab888",
+                "resourcePath": "sprites\\spr_dragon_death\\spr_dragon_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "487c0c4c-4afd-4a92-8b0d-76105f51c7f4",
+            "Value": {
+                "id": "756189d0-f0bf-4e33-9870-ac47b4c64313",
+                "resourcePath": "sprites\\spr_smalldragon_attack\\spr_smalldragon_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b5e6213-46cf-4b0c-8dc5-6d091ee8f8a1",
+            "Value": {
+                "id": "795b997d-6122-4c07-b97c-dd6334ddb524",
+                "resourcePath": "sprites\\spr_warrior_right\\spr_warrior_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b68b1ea-0fc7-46ea-9848-dd1f69817809",
+            "Value": {
+                "id": "0da20e48-11a9-4af0-9b2d-7e7604ab41b4",
+                "resourcePath": "sprites\\spr_dragon_hurt\\spr_dragon_hurt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b9a258f-ecf9-4c7d-878b-06ef1fb8a3ac",
+            "Value": {
+                "id": "bf574ad1-2a29-4b61-a10a-2b422bbbd98e",
+                "resourcePath": "sprites\\spr_warrior_left\\spr_warrior_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4dbad3a2-4cd9-4701-903b-032a069febce",
             "Value": {
                 "id": "a64bf000-0a51-4735-ab93-9b4d081947ed",
                 "resourcePath": "views\\4dbad3a2-4cd9-4701-903b-032a069febce.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4dbec105-533e-4ca4-919e-a54fa674ff56",
-            "Value": {
-                "id": "8bea2d2b-c37b-4426-8fc7-1347abca3e67",
-                "resourcePath": "objects\\obj_enemy02\\obj_enemy02.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4e758de0-6672-48ef-8385-c45b2aa1ea2b",
-            "Value": {
-                "id": "e5164b23-66f0-4b27-a8db-e637a65156d9",
-                "resourcePath": "sprites\\sprite12\\sprite12.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -227,6 +307,14 @@
             "Value": {
                 "id": "f6c304e9-96d0-4620-a793-d2dbf19b3c1c",
                 "resourcePath": "sprites\\spr_player_down\\spr_player_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54dba5eb-b47c-42d0-ad6e-74f65620f9e9",
+            "Value": {
+                "id": "a32e0c51-b0d7-4eae-8232-f05afc80d8a3",
+                "resourcePath": "sprites\\spr_dragon_attack_01\\spr_dragon_attack_01.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -295,6 +383,14 @@
             }
         },
         {
+            "Key": "69f3cdd2-bc47-4dcb-ac61-bd9d089e1700",
+            "Value": {
+                "id": "4eda3bf9-fa6a-488c-96f9-b10ac01544ce",
+                "resourcePath": "sprites\\spr_warrior_front\\spr_warrior_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6aab543c-130a-4ab5-81e7-5c406c445040",
             "Value": {
                 "id": "53526bcc-515d-4c01-bebe-5c7b91795efd",
@@ -351,6 +447,14 @@
             }
         },
         {
+            "Key": "88aef2ea-952b-4a86-baa8-b8ae34662bd5",
+            "Value": {
+                "id": "070c6fcc-a002-460f-be2f-5ae05fa1ebce",
+                "resourcePath": "objects\\obj_enemy_smalldragon\\obj_enemy_smalldragon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c1c08ac-1734-46c2-82c9-6143c63e3323",
             "Value": {
                 "id": "17e054e4-66ef-4564-a494-499ae5b1ff91",
@@ -367,6 +471,22 @@
             }
         },
         {
+            "Key": "8e5addb2-37ba-4b2e-a5f0-364153d6b0e4",
+            "Value": {
+                "id": "76448dd1-dbb0-4c1a-9e12-3caa201f4d0a",
+                "resourcePath": "sprites\\spr_warrior_attack_right_01\\spr_warrior_attack_right_01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "907b35d6-8103-4cd8-b0c4-088bb3904733",
+            "Value": {
+                "id": "d09acb27-d915-4cf8-b0c9-8ff0c670fa1d",
+                "resourcePath": "sprites\\spr_warrior_idle_left\\spr_warrior_idle_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9236647a-f10f-4121-a311-3c7171b76be5",
             "Value": {
                 "id": "8f263a87-44a4-4ad9-bd34-43cee11ad387",
@@ -375,11 +495,27 @@
             }
         },
         {
+            "Key": "925fc700-c7b1-4d35-a887-d314681c4f5f",
+            "Value": {
+                "id": "14e89dbb-7dcd-4e71-8af7-0b80bd00573d",
+                "resourcePath": "sprites\\spr_bg_outono\\spr_bg_outono.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "931e4506-816a-4c5f-b7de-a02f7c3bf37d",
             "Value": {
                 "id": "85f8bd8c-edaf-4f0a-adaf-9ae050fb2467",
                 "resourcePath": "views\\931e4506-816a-4c5f-b7de-a02f7c3bf37d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "941e1f82-e194-45d1-bc94-272267549ecf",
+            "Value": {
+                "id": "03e27155-2500-4f2b-aacc-77a878350a61",
+                "resourcePath": "rooms\\rm_model_batalha\\rm_model_batalha.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -407,6 +543,14 @@
             }
         },
         {
+            "Key": "9c42a4ed-b756-4c6e-851a-8d1b5b564197",
+            "Value": {
+                "id": "af1438c6-0102-48b5-b0b2-163d7831023a",
+                "resourcePath": "sprites\\spr_warrior_attack_left_01\\spr_warrior_attack_left_01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f39bd49-13dd-499b-b5af-323f3b4a7a93",
             "Value": {
                 "id": "2bca6ada-0930-45ff-afc9-62a2e8082947",
@@ -423,11 +567,35 @@
             }
         },
         {
+            "Key": "a7c0ac11-235f-45c8-9642-8f61400b5530",
+            "Value": {
+                "id": "d520f7c2-fdae-468c-940f-1214b2d8a10c",
+                "resourcePath": "sprites\\spr_bg_verao\\spr_bg_verao.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "afcce239-8a7b-4bf8-820f-b186fc340a35",
             "Value": {
                 "id": "07009504-0e94-4748-8d4d-bd55bc568bf7",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b3e45c3f-ba4d-4ba7-aab5-f76fb444517c",
+            "Value": {
+                "id": "a2c9fa90-c6ca-41b3-8524-fc009b4b8646",
+                "resourcePath": "rooms\\rm_batalha_primavera\\rm_batalha_primavera.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b802a0ca-d40f-4ea0-9d3a-11306e4ff126",
+            "Value": {
+                "id": "25832015-622f-4740-b609-ce80a837bccb",
+                "resourcePath": "sprites\\spr_bg_primavera\\spr_bg_primavera.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -503,6 +671,22 @@
             }
         },
         {
+            "Key": "c76144d3-8914-40a9-82fc-011f7985e31b",
+            "Value": {
+                "id": "4e37cb78-63aa-43c0-a27f-a64b52b3c261",
+                "resourcePath": "views\\c76144d3-8914-40a9-82fc-011f7985e31b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c9520240-7cc8-4451-9b70-8aaa7622a51b",
+            "Value": {
+                "id": "f379ccf3-1815-4ffa-970d-61a5098f45e2",
+                "resourcePath": "rooms\\rm_batalha_verao\\rm_batalha_verao.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c97c76e4-5151-41a0-8050-f73b023db526",
             "Value": {
                 "id": "6b3eb898-8f00-4246-aa3d-d7c92e370db9",
@@ -519,19 +703,51 @@
             }
         },
         {
+            "Key": "cd2b97d9-29fa-4304-9894-d16ec829ef43",
+            "Value": {
+                "id": "e14fdccc-0cfd-4d69-b4b9-aed86c05a037",
+                "resourcePath": "views\\cd2b97d9-29fa-4304-9894-d16ec829ef43.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ced450b7-48cc-4b5d-8a67-bbc17209b063",
+            "Value": {
+                "id": "220e68cf-41bb-47f0-b0d2-dce24fd064db",
+                "resourcePath": "sprites\\spr_warrior_attack_left_02\\spr_warrior_attack_left_02.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf1a1cad-ce3c-4859-834e-e00cf351425d",
+            "Value": {
+                "id": "c102f198-b663-4949-bd2c-f788b9f2b779",
+                "resourcePath": "views\\cf1a1cad-ce3c-4859-834e-e00cf351425d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cfee06ac-01a6-41b0-82f6-49b75bd56212",
+            "Value": {
+                "id": "928a3924-4f44-4005-b0bf-2e92ec24dc59",
+                "resourcePath": "sprites\\spr_smalldragon_death\\spr_smalldragon_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d28f735d-52a3-46a1-93ec-1166b05845a0",
+            "Value": {
+                "id": "9ddb4ea0-9d55-43a2-ae4a-ca0a8031f13b",
+                "resourcePath": "rooms\\rm_batalha_outono\\rm_batalha_outono.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d5754548-dc30-4211-abb3-c47886630270",
             "Value": {
                 "id": "4d5d6966-495f-4c68-b7e3-09692abb1621",
                 "resourcePath": "views\\d5754548-dc30-4211-abb3-c47886630270.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d833fb39-6bed-44fe-b593-646b47e29379",
-            "Value": {
-                "id": "269ae945-35f9-4477-a77b-30f97b36f853",
-                "resourcePath": "sprites\\spr_enemyIdle1\\spr_enemyIdle1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +767,22 @@
             }
         },
         {
+            "Key": "df292cf9-282a-4825-9e9d-d34b29ae76d8",
+            "Value": {
+                "id": "3f8689e9-d856-4e03-90b4-d50b9c5a4849",
+                "resourcePath": "sprites\\spr_dragon_attack_02\\spr_dragon_attack_02.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4c303dc-ae6d-4c5f-95b1-dfadcf916af5",
+            "Value": {
+                "id": "20192961-d251-449a-a444-d2d6c7e4de73",
+                "resourcePath": "views\\e4c303dc-ae6d-4c5f-95b1-dfadcf916af5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e89adcf6-fd73-4a2e-8f0b-e93057ea9620",
             "Value": {
                 "id": "669c9b47-805a-4222-b396-d8e473d475e2",
@@ -563,6 +795,14 @@
             "Value": {
                 "id": "60c6824d-18f5-46b5-a9d2-eb6daf5f99ee",
                 "resourcePath": "sprites\\spr_tile_dungeon\\spr_tile_dungeon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eaaaa0e2-5f5a-4d5e-801b-3f339cc467e0",
+            "Value": {
+                "id": "f1c02d67-273f-446e-9d87-c39ba7bbc05e",
+                "resourcePath": "sprites\\spr_warrior_back\\spr_warrior_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -580,6 +820,22 @@
                 "id": "ad15e99e-aa40-4a8e-bae2-07eceeb17ed7",
                 "resourcePath": "objects\\obj_transicao\\obj_transicao.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "edaee597-1fc6-439a-a2d4-df6cd3257e71",
+            "Value": {
+                "id": "bc31ec70-2926-4489-bfc2-291a41793426",
+                "resourcePath": "views\\941e1f82-e194-45d1-bc94-272267549ecf-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eee3d91a-9a62-43d2-95ed-fe0789541d9b",
+            "Value": {
+                "id": "adb49742-7fa6-49b0-bf21-510f4d52e41b",
+                "resourcePath": "sprites\\spr_dragon_iddle\\spr_dragon_iddle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -607,11 +863,35 @@
             }
         },
         {
+            "Key": "f64f87f9-a1f1-40c1-a296-bcd426fe4bcb",
+            "Value": {
+                "id": "ed22640d-1bfa-4564-a68f-b2aec4e93cf7",
+                "resourcePath": "views\\f64f87f9-a1f1-40c1-a296-bcd426fe4bcb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f681b2e5-06cd-44a0-b52f-c445c565cd82",
             "Value": {
                 "id": "264048a6-ac6d-4fe1-a40d-9cb5cdd7a10f",
                 "resourcePath": "views\\f681b2e5-06cd-44a0-b52f-c445c565cd82.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7707bc4-6931-452e-b016-c35faf03fcb9",
+            "Value": {
+                "id": "d2bb1f18-8452-48c6-a226-2f4f91486cc2",
+                "resourcePath": "views\\f7707bc4-6931-452e-b016-c35faf03fcb9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fdca846e-da8c-49bc-b2ef-9f02f26a998a",
+            "Value": {
+                "id": "fd49ee78-4f83-4585-8d06-4514d5a113e5",
+                "resourcePath": "sprites\\spr_smalldragon_iddle\\spr_smalldragon_iddle.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
