@@ -16,6 +16,8 @@ ativo = true;
 movendo = false;
 
 sprite_luta = spr_player_right;
+sprite_atacando = spr_player_atacando;
+sprite_defendendo = spr_player_defendendo;
 
 inimigo_atual = noone;
 estado = heroState.NORMAL;

@@ -74,7 +74,7 @@ if (ativo == true && global.batalha == false) {
 	
 #endregion
 }
-else 
+else if (room != rm_batalha_fora)
 {
 	image_index = 0;
 	image_speed = 0;
@@ -86,25 +86,36 @@ if (room == rm_batalha_fora)
 	switch(estado)
 	{
 		case heroState.NORMAL:
+		
+			if (!defendendo) {
+				sprite_index = sprite_luta;
+				image_speed = 0;
+			}
+				
 			energia += agi / 5;
 			if (energia > max_energia) energia = max_energia;
-			
-			if (!defendendo)
-				sprite_index = sprite_luta;
 			
 			show_debug_message("NORMAL: Def: " + string(def));
 		break;
 		case heroState.ATACANDO:
-			inimigo_atual.hp -= (atq - inimigo_atual.def);
-			inimigo_atual.dano = true;
-			inimigo_atual.alarm[1] = room_speed;
 			energia = 0;
-
-			estado = heroState.NORMAL;
+			
+			sprite_index = sprite_atacando;
+			image_speed = 1;
+			
+			var n_img = image_number - 1;
+			
+			if (image_index >= n_img)
+			{
+				inimigo_atual.hp -= (atq - inimigo_atual.def);
+				inimigo_atual.dano = true;
+				inimigo_atual.alarm[1] = room_speed;
+				estado = heroState.NORMAL;
+			}
 		break;
 		
 		case heroState.DEFENDENDO:
-			sprite_index = spr_player_defendendo;
+			sprite_index = sprite_defendendo;
 			
 			if (defendendo && obj_control.posicao > 0)
 			{

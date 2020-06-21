@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "5e2f6679-c066-4002-a1ef-3132cade4065",
+            "Value": {
+                "id": "5dcaa4d6-aecc-4d62-93e9-cbe7761d9c72",
+                "resourcePath": "sprites\\spr_player_atacando\\spr_player_atacando.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61eba8d2-5745-4f7d-8660-03f4060c2527",
             "Value": {
                 "id": "849a6b98-6146-4d14-b264-5ae64ef2a5e3",
