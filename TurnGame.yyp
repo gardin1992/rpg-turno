@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2faf40d5-6682-4b27-889d-a6e0b64d58e0",
+            "Value": {
+                "id": "1dc44a03-cd55-427d-b712-2226d693cc72",
+                "resourcePath": "views\\2faf40d5-6682-4b27-889d-a6e0b64d58e0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "37154af7-7472-4542-b27e-143fbcdfcf76",
             "Value": {
                 "id": "65aa8332-4fc1-4517-838b-5e6694f05265",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "5dcaa4d6-aecc-4d62-93e9-cbe7761d9c72",
                 "resourcePath": "sprites\\spr_player_atacando\\spr_player_atacando.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "603819d4-5ab3-473a-a916-1606df844a63",
+            "Value": {
+                "id": "4840c5db-05fd-4d59-8d04-69929df84adb",
+                "resourcePath": "sprites\\spr_enemy_01_ataque\\spr_enemy_01_ataque.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -403,6 +419,14 @@
             "Value": {
                 "id": "bf322cc7-e334-4571-9747-3a94af9a82cd",
                 "resourcePath": "sprites\\spr_player_left\\spr_player_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb8d48f9-35fb-42c2-9728-af0e4f49585d",
+            "Value": {
+                "id": "4dda3e35-9a96-4c4e-9caa-684f209c0f73",
+                "resourcePath": "sprites\\spt_enemy_01_defendendo\\spt_enemy_01_defendendo.yy",
                 "resourceType": "GMSprite"
             }
         },

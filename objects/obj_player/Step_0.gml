@@ -94,8 +94,6 @@ if (room == rm_batalha_fora)
 				
 			energia += agi / 5;
 			if (energia > max_energia) energia = max_energia;
-			
-			show_debug_message("NORMAL: Def: " + string(def));
 		break;
 		case heroState.ATACANDO:
 			energia = 0;
@@ -111,22 +109,31 @@ if (room == rm_batalha_fora)
 				inimigo_atual.hp -= max(0, (atq - inimigo_atual.def));
 				inimigo_atual.dano = true;
 				inimigo_atual.alarm[1] = room_speed;
+				inimigo_atual.estado = enemyState.NORMAL;
+				
 				estado = heroState.NORMAL;
 			}
 		break;
 		
 		case heroState.DEFENDENDO:
+		
+			energia = 0;
+		
 			sprite_index = sprite_defendendo;
+			image_speed = 1;
+		
+			var n_img = image_number - 1;
 			
-			if (defendendo && obj_control.posicao > 0)
+			if (image_index >= n_img)
 			{
-				def *= 2;
-				energia = 0;
-				estado = heroState.NORMAL;
-				obj_control.posicao = 0;
+				if (defendendo && obj_control.posicao > 0)
+				{
+					def *= 2;
+					energia = 0;
+					estado = heroState.NORMAL;
+					obj_control.posicao = 0;
+				}
 			}
-			
-			show_debug_message("DEFENDENDO. Def: " + string(def));
 		break;
 	}
 }

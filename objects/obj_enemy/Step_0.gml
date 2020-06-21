@@ -19,8 +19,10 @@ obj_enemy.image_xscale = -1;
 switch(estado)
 {
 	case enemyState.NORMAL:
-		sprite_index = sprite_luta;
-		image_speed = 0;
+		if (!defendendo) {
+			sprite_index = sprite_luta;
+			image_speed = 0;
+		}
 		
 		energia += agi / 5;
 		if (energia >= max_energia) energia = max_energia;
@@ -42,11 +44,13 @@ switch(estado)
 			estado = choose(enemyState.ATACANDO, enemyState.ATACANDO, enemyState.DEFENDENDO);
 			energia = 0;
 		}
-		
-		
 	break;
 	
 	case enemyState.ATACANDO:
+		if (defendendo) {
+			defendendo = false;
+			def /= 2;
+		}
 		
 		energia = 0;
 			
@@ -64,9 +68,24 @@ switch(estado)
 	break;
 	
 	case enemyState.DEFENDENDO:
-		energia = 0;
-
+		if (!defendendo) {
+			def *= 2;
+			defendendo = true;
+			energia = 0;
+		
+			sprite_index = sprite_defendendo;
+			image_speed = 1;
+		
+			var n_img = image_number - 1;
+			
+			if (image_index >= n_img)
+			{
+				
+			}
+		}
+		
 		obj_control.inimigo_ataque = 0;
 		estado = enemyState.NORMAL;
+		show_debug_message("DEFENDENDO: Def: " + string(def));
 	break;
 }
