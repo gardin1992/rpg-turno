@@ -34,16 +34,15 @@ if (room == rm_batalha_fora)
 						{
 							heroi_atual.def /= 2;
 							heroi_atual.defendendo = false;
-							heroi_atual.sprite_index = spr_player_right;
+							heroi_atual.estado = heroState.NORMAL;
 						}
 						
 						momento++;
 						break;
 					case 1:
 						momento--;
-						heroi_atual.def *= 2;
+						heroi_atual.estado = heroState.DEFENDENDO;
 						heroi_atual.defendendo = true;
-						heroi_atual.energia = 0;
 						break;
 					case 2:
 						global.batalha = false;
@@ -59,16 +58,16 @@ if (room == rm_batalha_fora)
 			
 			if (select)
 			{
-				momento = 0;
 				
-				heroi_atual.energia = 0;
-				heroi_atual = 0;
-				
-				inimigo_atual = ds_list_find_value(global.inimigo_batalha, posicao_i);
 				// aplicando dano
-				inimigo_atual.hp -= (heroi_atual.atq - inimigo_atual.def);
-				inimigo_atual.dano = true;
-				inimigo_atual.alarm[1] = room_speed;
+				inimigo_atual = ds_list_find_value(global.inimigo_batalha, posicao_i);
+				heroi_atual.inimigo_atual = inimigo_atual;
+				
+				// alterando o estado do heroi atual
+				heroi_atual.estado = heroState.ATACANDO;
+				
+				momento = 0;
+				heroi_atual = 0;
 			}
 			
 			if (dselect) momento--;

@@ -80,17 +80,44 @@ else
 	image_speed = 0;
 }
 
+#region Batalha
 if (room == rm_batalha_fora)
 {
-	energia += agi / 5;
-	if (energia > max_energia) energia = max_energia;
-	
-	// diminui energia
-	if (mouse_check_button_released(mb_left)) energia = 0;
-	
-	
+	switch(estado)
+	{
+		case heroState.NORMAL:
+			energia += agi / 5;
+			if (energia > max_energia) energia = max_energia;
+			
+			if (!defendendo)
+				sprite_index = sprite_luta;
+			
+			show_debug_message("NORMAL: Def: " + string(def));
+		break;
+		case heroState.ATACANDO:
+			inimigo_atual.hp -= (atq - inimigo_atual.def);
+			inimigo_atual.dano = true;
+			inimigo_atual.alarm[1] = room_speed;
+			energia = 0;
+
+			estado = heroState.NORMAL;
+		break;
+		
+		case heroState.DEFENDENDO:
+			sprite_index = spr_player_defendendo;
+			
+			if (defendendo && obj_control.posicao > 0)
+			{
+				def *= 2;
+				energia = 0;
+				estado = heroState.NORMAL;
+				obj_control.posicao = 0;
+			}
+			
+			show_debug_message("DEFENDENDO. Def: " + string(def));
+		break;
+	}
 }
 
-if (defendendo == true) {
-	sprite_index = spr_player_defendendo;
-}
+#endregion
+
