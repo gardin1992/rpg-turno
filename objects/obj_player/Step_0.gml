@@ -140,3 +140,22 @@ if (room == rm_batalha_fora)
 
 #endregion
 
+
+#region GANHANDO LVL
+if (ex >= max_exp)
+{
+	lvl++; 
+	max_hp		+= 2 + lvl;
+	hp			= max_hp;
+	max_sp		+= 1 + floor(lvl/2);
+	sp			= max_sp;
+	atq			+= 1 + floor(lvl/2);
+	def			+= .2;
+	agi			+= .2;
+	max_exp		+= 50 + (lvl * 10);
+	ex			= 0;
+	sorte		+= .0005;
+	
+	show_debug_message("Meu lvl é: " + string(lvl))
+}
+#endregion

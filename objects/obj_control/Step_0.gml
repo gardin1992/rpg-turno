@@ -52,6 +52,6 @@ if (room == rm_batalha_fora)
 	{
 		fimbatalha = true;
 		mostrar_exp = true;
-		alarm[0] = room_speed * 5;
+		alarm[0] = room_speed * 3;
 	}
 }
