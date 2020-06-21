@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// finaliza a batalha
 global.batalha = false;
 fimbatalha = false;
 

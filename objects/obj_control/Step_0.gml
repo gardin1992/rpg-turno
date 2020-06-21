@@ -27,8 +27,6 @@ if (global.batalha == false)
 		ds_list_add(rooms, rm_batalha_primavera);
 		ds_list_add(rooms, rm_batalha_verao);
 		
-		var destino_ = ds_list_find_value(rooms, irandom(ds_list_size(rooms)))
-		
 		t.destino = rm_batalha_verao;
 		t.xx = 100;
 		t.yy = 200;

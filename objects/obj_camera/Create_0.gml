@@ -4,3 +4,4 @@
 alvo = obj_player;
 
 mudar = true;
+

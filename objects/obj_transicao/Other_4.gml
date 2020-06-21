@@ -9,6 +9,8 @@ obj_player.y = yy;
 // entrando na room de batalha
 if (room == rm_batalha_verao)
 {
+	obj_control.menu_created = false;
+	
 	with(obj_player)
 	{
 		sprite_index = spr_player_right;

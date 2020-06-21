@@ -1,5 +1,6 @@
 /// @description Menu da batalha
 
+
 if (room == rm_batalha_verao)
 {
 	if (!fimbatalha)
@@ -106,5 +107,18 @@ if (room == rm_batalha_verao)
 			draw_text(70, 70, "Experiência: " + string(ceil(exp_player)));
 			draw_set_font(-1);
 		}
+	}
+}
+else 
+{
+	if (!menu_created) {
+		
+		menu_created = true;
+		// barra de vida
+		instance_create_layer(0, 0, "Player", obj_header_bar);
+		// barra de exp
+		instance_create_layer(0, 0, "Player", obj_amor_bar);
+		// Botao menu
+		instance_create_layer(0, 0, "Player", obj_btn_menu);
 	}
 }
