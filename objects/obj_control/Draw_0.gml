@@ -49,10 +49,13 @@ if (room == rm_batalha_fora)
 							momento--;
 							heroi_atual.estado = heroState.DEFENDENDO;
 							heroi_atual.defendendo = true;
+							heroi_atual = 0;
 							break;
 						case 2:
 							momento = 0;
 							global.batalha = false;
+							heroi_atual = 0;
+							heroi_atual.estado = heroState.NORMAL;
 					}
 				}
 			
@@ -100,7 +103,7 @@ if (room == rm_batalha_fora)
 			// desenhar a experiência
 			draw_set_font(fnt_padrao);
 			draw_set_halign(fa_left);
-			draw_text(70, 70, "Experiência: " + string(floor(exp_player)));
+			draw_text(70, 70, "Experiência: " + string(ceil(exp_player)));
 			draw_set_font(-1);
 		}
 	}
