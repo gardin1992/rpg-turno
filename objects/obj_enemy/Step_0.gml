@@ -12,91 +12,88 @@ if (dano)
 
 obj_enemy.image_xscale = -1;
 
- // Morrendo
- if (hp <= 0)  {
-	estado = enemyState.MORRENDO;
- }
- 
- 
-switch(estado)
+
+if (!morrer)
 {
-	case enemyState.NORMAL:
-		if (!defendendo) {
-			sprite_index = sprite_luta;
-			image_speed = 0;
-		}
+	switch(estado)
+	{
+		case enemyState.NORMAL:
+			if (!defendendo) {
+				sprite_index = sprite_luta;
+				image_speed = 0;
+			}
 		
-		energia += agi / 5;
-		if (energia >= max_energia) energia = max_energia;
+			energia += agi / 5;
+			if (energia >= max_energia) energia = max_energia;
 	
-		var n_heroi = irandom(ds_list_size(global.heroi_batalha) - 1);
+			var n_heroi = irandom(ds_list_size(global.heroi_batalha) - 1);
 		
-		heroi_atacar = ds_list_find_value(global.heroi_batalha, max(0, n_heroi));
+			heroi_atacar = ds_list_find_value(global.heroi_batalha, max(0, n_heroi));
 		
-		if (
-			heroi_atacar != undefined
-			&& obj_control.inimigo_ataque == 0
-			&& obj_control.heroi_atual == 0
-			&& obj_control.heroi_atual.estado != heroState.ATACANDO
-			&& !dano
-			&& energia == max_energia
-		)
-		{
-			obj_control.inimigo_ataque = false;
-			estado = choose(enemyState.ATACANDO, enemyState.ATACANDO, enemyState.DEFENDENDO);
+			if (
+				heroi_atacar != undefined
+				&& obj_control.inimigo_ataque == 0
+				&& obj_control.heroi_atual == 0
+				&& obj_control.heroi_atual.estado != heroState.ATACANDO
+				&& !dano
+				&& energia == max_energia
+			)
+			{
+				obj_control.inimigo_ataque = false;
+				estado = choose(enemyState.ATACANDO, enemyState.ATACANDO, enemyState.DEFENDENDO);
+				energia = 0;
+			}
+		break;
+	
+		case enemyState.ATACANDO:
+			if (defendendo) {
+				defendendo = false;
+				def /= 2;
+			}
+		
 			energia = 0;
-		}
-	break;
-	
-	case enemyState.ATACANDO:
-		if (defendendo) {
-			defendendo = false;
-			def /= 2;
-		}
-		
-		energia = 0;
 			
-		sprite_index = sprite_atacando;
-		image_speed = 1;
-		
-		var n_img = image_number - 1;
-			
-		if (image_index >= n_img)
-		{
-			heroi_atacar.hp -= max(0, (atq - heroi_atacar.def));
-			obj_control.inimigo_ataque = 0;
-			estado = heroState.NORMAL;
-		}
-	break;
-	
-	case enemyState.DEFENDENDO:
-		if (!defendendo) {
-			sprite_index = sprite_defendendo;
+			sprite_index = sprite_atacando;
 			image_speed = 1;
 		
 			var n_img = image_number - 1;
 			
 			if (image_index >= n_img)
 			{
-				energia = 0;
-				def *= 2;
-				defendendo = true;
-				show_debug_message("DEFENDENDO: Def: " + string(def));
+				heroi_atacar.hp -= max(0, (atq - heroi_atacar.def));
+				obj_control.inimigo_ataque = 0;
+				estado = heroState.NORMAL;
 			}
-		}
+		break;
+	
+		case enemyState.DEFENDENDO:
+			if (!defendendo) {
+				sprite_index = sprite_defendendo;
+				image_speed = 1;
 		
-		obj_control.inimigo_ataque = 0;
-		estado = enemyState.NORMAL;
-	break;
-	case enemyState.MORRENDO:
-		sprite_index = sprite_morrendo;
-		image_speed = 1;
-		
-		var n_img = image_number - 1;
+				var n_img = image_number - 1;
 			
-		if (image_index >= n_img)
-		{
-			 instance_destroy();
-		}
-	break;
+				if (image_index >= n_img)
+				{
+					energia = 0;
+					def *= 2;
+					defendendo = true;
+					show_debug_message("DEFENDENDO: Def: " + string(def));
+				}
+			}
+		
+			obj_control.inimigo_ataque = 0;
+			estado = enemyState.NORMAL;
+		break;
+	}
+}
+else
+{
+	sprite_index = sprite_morrendo;
+	image_speed = 1;
+		
+	var n_img = image_number - 1;
+	
+	if (image_alpha > 0) image_alpha -= .03;	
+	if (image_alpha <= 0) instance_destroy();
 }

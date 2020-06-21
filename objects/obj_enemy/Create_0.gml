@@ -3,7 +3,6 @@ enum enemyState {
 	NORMAL,
 	ATACANDO,
 	DEFENDENDO,
-	MORRENDO,
 }
 
 // Atributes
@@ -31,3 +30,5 @@ sprite_luta = spr_enemyIdle;
 sprite_atacando = spr_enemy_01_ataque;
 sprite_defendendo = spt_enemy_01_defendendo;
 sprite_morrendo = spr_enemy_01_dead;
+
+morrer = false;

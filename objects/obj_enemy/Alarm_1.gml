@@ -3,3 +3,8 @@
 
 dano = false;
 image_alpha = 1;
+
+ // Morrendo
+ if (hp <= 0)  {
+	morrer = true;
+ }
