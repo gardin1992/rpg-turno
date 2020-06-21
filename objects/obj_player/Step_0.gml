@@ -107,7 +107,8 @@ if (room == rm_batalha_fora)
 			
 			if (image_index >= n_img)
 			{
-				inimigo_atual.hp -= (atq - inimigo_atual.def);
+				
+				inimigo_atual.hp -= max(0, (atq - inimigo_atual.def));
 				inimigo_atual.dano = true;
 				inimigo_atual.alarm[1] = room_speed;
 				estado = heroState.NORMAL;

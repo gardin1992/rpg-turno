@@ -13,6 +13,7 @@ posicao = 0; // minha posicao da acao
 
 momento = 0; // momento da batalha
 heroi_atual = 0;
+inimigo_ataque = 0;
 
 fimbatalha = false;
 
