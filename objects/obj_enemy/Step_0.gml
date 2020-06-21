@@ -13,7 +13,9 @@ if (dano)
 obj_enemy.image_xscale = -1;
 
  // Morrendo
- if (hp <= 0)  instance_destroy();
+ if (hp <= 0)  {
+	estado = enemyState.MORRENDO;
+ }
  
  
 switch(estado)
@@ -69,10 +71,6 @@ switch(estado)
 	
 	case enemyState.DEFENDENDO:
 		if (!defendendo) {
-			def *= 2;
-			defendendo = true;
-			energia = 0;
-		
 			sprite_index = sprite_defendendo;
 			image_speed = 1;
 		
@@ -80,12 +78,25 @@ switch(estado)
 			
 			if (image_index >= n_img)
 			{
-				
+				energia = 0;
+				def *= 2;
+				defendendo = true;
+				show_debug_message("DEFENDENDO: Def: " + string(def));
 			}
 		}
 		
 		obj_control.inimigo_ataque = 0;
 		estado = enemyState.NORMAL;
-		show_debug_message("DEFENDENDO: Def: " + string(def));
+	break;
+	case enemyState.MORRENDO:
+		sprite_index = sprite_morrendo;
+		image_speed = 1;
+		
+		var n_img = image_number - 1;
+			
+		if (image_index >= n_img)
+		{
+			 instance_destroy();
+		}
 	break;
 }

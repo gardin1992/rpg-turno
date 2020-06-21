@@ -25,7 +25,9 @@ heroi_atacar = 0;
 // posicao na lista
 numeroz = 0;
 
+defendendo = false;
+
 sprite_luta = spr_enemyIdle;
 sprite_atacando = spr_enemy_01_ataque;
 sprite_defendendo = spt_enemy_01_defendendo;
-defendendo = false;
+sprite_morrendo = spr_enemy_01_dead;
