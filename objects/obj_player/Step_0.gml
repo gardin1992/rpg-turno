@@ -2,7 +2,7 @@
 
 script_execute(get_input)
 
-depth = -y / 100;
+// depth = -y / 100;
 
 
 if (ativo == true && global.batalha == false) {

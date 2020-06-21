@@ -16,3 +16,5 @@ if (room == rm_model_out)
 {
 	room_goto_next()
 }
+
+obj_control.menu_created = false;

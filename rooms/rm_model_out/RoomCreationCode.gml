@@ -5,7 +5,8 @@ if (!instance_exists(obj_camera))
 
 if (!instance_exists(obj_player))
 {
-	instance_create_layer(0, 0, "Player", obj_player);
+	var player = instance_create_layer(400, 290, "Player", obj_player);
+	player.depth = 100;
 }
 
 if (!instance_exists(obj_control))
