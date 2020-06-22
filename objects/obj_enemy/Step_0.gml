@@ -10,9 +10,6 @@ if (dano)
 	if (image_alpha >= 1) sumir = true;
 }
 
-obj_enemy.image_xscale = -1;
-
-
 if (!morrer)
 {
 	switch(estado)

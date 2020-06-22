@@ -39,7 +39,7 @@ else {
 		var l_right_healt = instance_create_layer(pg_right_x_healt, pg_left_y, "Player", obj_battle_pg_healt_right_enemy);
 		l_right_healt.depth = -300;
 	#endregion
-	
+	/*
 	#region STAMINA
 		var pg_stamina_left_x = xx - 50;
 		var pg_stamina_left_y = yy + sprite_height + 20;
@@ -59,4 +59,5 @@ else {
 		var l_right_stamina = instance_create_layer(pg_right_x_stamina, pg_stamina_left_y, "Player", obj_battle_pg_stamina_right_enemy);
 		l_right_stamina.depth = -300;
 	#endregion
+	*/
 }
