@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0c6dc9ce-d98e-4e8d-bb97-7e67a99124cf",
+            "Value": {
+                "id": "71a651ed-0301-49ea-8315-567fb50de5db",
+                "resourcePath": "sprites\\spr_battle_stamina_8\\spr_battle_stamina_8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1208e7f4-509b-461d-8b29-d574a4cf91f3",
             "Value": {
                 "id": "eb8f54d2-224c-414a-9410-0ba2c6012456",
@@ -148,6 +156,14 @@
                 "id": "bfa2bfc2-4206-4b83-9f81-cb01c0e97179",
                 "resourcePath": "sprites\\spr_battle_mana_table\\spr_battle_mana_table.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12c2f612-7fb1-47c3-baad-da781009ff23",
+            "Value": {
+                "id": "4eeea76a-0122-4902-aad9-bcaefe63f3a2",
+                "resourcePath": "views\\12c2f612-7fb1-47c3-baad-da781009ff23.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -615,6 +631,14 @@
             }
         },
         {
+            "Key": "6253fb06-63a6-46b1-9f27-4b8bc8b75599",
+            "Value": {
+                "id": "69b402eb-4c06-491e-8f9f-441a263610a5",
+                "resourcePath": "sprites\\spr_battle_stamina_left\\spr_battle_stamina_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "668f29b8-34da-41e8-9613-1ff7b72ec986",
             "Value": {
                 "id": "3772744d-5910-49c8-835b-ac3f1033e44f",
@@ -723,6 +747,14 @@
             "Value": {
                 "id": "0e6f79e0-46cc-4e19-b035-8ebe58b9e39f",
                 "resourcePath": "views\\7d79b77f-2ea2-43ae-bec7-80d4786303ec.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7de07237-59da-48db-ba9f-8ec8255cf0db",
+            "Value": {
+                "id": "c085eb91-9fc6-451a-b16a-26051c8fe1d0",
+                "resourcePath": "views\\7de07237-59da-48db-ba9f-8ec8255cf0db.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1095,6 +1127,14 @@
             }
         },
         {
+            "Key": "bc5816e7-e8a7-4b32-8c1c-6064a0f1edc8",
+            "Value": {
+                "id": "c82711c5-1f4f-4a94-9e02-0736593c273c",
+                "resourcePath": "objects\\obj_battle_pg_stamina_right\\obj_battle_pg_stamina_right.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd4779a4-28df-4962-86b1-d5d1ba6991ae",
             "Value": {
                 "id": "d5d5de49-a8e4-42bc-b8c6-fd09ea991a2a",
@@ -1268,6 +1308,14 @@
                 "id": "9ddb4ea0-9d55-43a2-ae4a-ca0a8031f13b",
                 "resourcePath": "rooms\\rm_batalha_outono\\rm_batalha_outono.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d350f4d5-a764-40c9-9497-bfbdbd955a7e",
+            "Value": {
+                "id": "cf7a864c-5458-4342-ad4b-94645bb17535",
+                "resourcePath": "objects\\obj_battle_pg_stamina_left\\obj_battle_pg_stamina_left.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1559,6 +1607,14 @@
             }
         },
         {
+            "Key": "f8cace53-2787-4620-958c-5a0d3bffc1ba",
+            "Value": {
+                "id": "7a115925-9795-4838-9fcb-4fecfa47ab4d",
+                "resourcePath": "objects\\obj_battle_pg_stamina_8\\obj_battle_pg_stamina_8.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa581952-53b1-4ef0-a8a8-6ab6fcbe03ae",
             "Value": {
                 "id": "e640b5cc-8b46-4ed7-a03c-c25eac45c8ca",
@@ -1571,6 +1627,14 @@
             "Value": {
                 "id": "40d9f66a-8b7c-41a6-90b4-474585848521",
                 "resourcePath": "sprites\\spr_battle_healt_center_10_10\\spr_battle_healt_center_10_10.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fbe92be8-748f-462b-a253-e49a1fd68c16",
+            "Value": {
+                "id": "cba8610d-bb4c-42df-a30a-6b57d05a15c2",
+                "resourcePath": "sprites\\spr_battle_stamina_right\\spr_battle_stamina_right.yy",
                 "resourceType": "GMSprite"
             }
         },

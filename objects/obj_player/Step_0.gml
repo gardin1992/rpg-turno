@@ -104,7 +104,7 @@ if (room == rm_batalha_verao)
 			
 			mp_potential_step(inimigo_atual.x, inimigo_atual.y, agi, true);
 			
-			if distance_to_object(inimigo_atual) < 100
+			if (distance_to_object(inimigo_atual) < 60)
 			{
 				// executa atack
 				sprite_index = sprite_atacando;
@@ -114,7 +114,6 @@ if (room == rm_batalha_verao)
 			
 				if (image_index >= n_img)
 				{
-				
 					inimigo_atual.hp -= max(0, (atq - inimigo_atual.def));
 					inimigo_atual.dano = true;
 					inimigo_atual.alarm[1] = room_speed;

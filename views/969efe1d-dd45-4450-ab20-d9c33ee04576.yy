@@ -14,7 +14,8 @@
         "baef5b39-01be-48e7-94ac-2a818a01f0fb",
         "0c1eecf1-0668-4601-9b5e-1cdc876996e4",
         "0709309b-7b65-448a-814a-3dbc4c8d69f1",
-        "87844e38-968e-4c12-ad15-327f04d79df6"
+        "87844e38-968e-4c12-ad15-327f04d79df6",
+        "7de07237-59da-48db-ba9f-8ec8255cf0db"
     ],
     "filterType": "GMObject",
     "folderName": "GUI_Battle",
