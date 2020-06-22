@@ -100,11 +100,11 @@ if (room == rm_batalha_verao)
 			
 			// mover até o inimigo
 			sprite_index = sprite_correndo;
-			image_speed += 0.5;
+			image_speed += 1;
 			
 			mp_potential_step(inimigo_atual.x, inimigo_atual.y, agi, true);
 			
-			if distance_to_object(inimigo_atual) < 5
+			if distance_to_object(inimigo_atual) < 100
 			{
 				// executa atack
 				sprite_index = sprite_atacando;

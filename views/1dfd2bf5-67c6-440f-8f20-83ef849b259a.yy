@@ -15,7 +15,7 @@
         "836d7309-6987-4a2c-8524-08e8f08841e6"
     ],
     "filterType": "GMSprite",
-    "folderName": "ProgressBar",
+    "folderName": "ProgressBar_Healt",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

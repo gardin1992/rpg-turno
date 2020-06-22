@@ -10,7 +10,7 @@
         "b1d04d5c-2dcc-4375-8e46-8a455e7ce1fe"
     ],
     "filterType": "GMObject",
-    "folderName": "ProgressBar",
+    "folderName": "ProgressBar_Healt",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
