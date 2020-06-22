@@ -2,7 +2,7 @@
 {
     "name": "rm_batalha_fora",
     "id": "7c8d27fa-29a0-4fc3-987a-82623e630b70",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

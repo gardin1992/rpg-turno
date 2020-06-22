@@ -29,7 +29,7 @@ if (global.batalha == false)
 		
 		t.destino = rm_batalha_verao;
 		t.xx = 100;
-		t.yy = 200;
+		t.yy = room_height - 300;
 		t.cor = c_white;
 		t.vel = 0.05;
 		

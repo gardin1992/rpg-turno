@@ -98,20 +98,33 @@ if (room == rm_batalha_verao)
 		case heroState.ATACANDO:
 			energia = 0;
 			
-			sprite_index = sprite_atacando;
-			image_speed = 1;
+			// mover até o inimigo
+			sprite_index = sprite_correndo;
+			image_speed += 0.5;
 			
-			var n_img = image_number - 1;
+			mp_potential_step(inimigo_atual.x, inimigo_atual.y, agi, true);
 			
-			if (image_index >= n_img)
+			if distance_to_object(inimigo_atual) < 5
 			{
+				// executa atack
+				sprite_index = sprite_atacando;
+				image_speed = 1;
+			
+				var n_img = image_number - 1;
+			
+				if (image_index >= n_img)
+				{
 				
-				inimigo_atual.hp -= max(0, (atq - inimigo_atual.def));
-				inimigo_atual.dano = true;
-				inimigo_atual.alarm[1] = room_speed;
-				inimigo_atual.estado = enemyState.NORMAL;
-				
-				estado = heroState.NORMAL;
+					inimigo_atual.hp -= max(0, (atq - inimigo_atual.def));
+					inimigo_atual.dano = true;
+					inimigo_atual.alarm[1] = room_speed;
+					
+					inimigo_atual.estado = enemyState.NORMAL;
+					estado = heroState.NORMAL;
+					
+					x = init_x;
+					y = init_y;
+				}
 			}
 		break;
 		

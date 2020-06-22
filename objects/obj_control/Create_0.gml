@@ -31,3 +31,7 @@ depth = -1000;
 instance_healt = 0;
 instance_armor = 0;
 instance_menu = 0;
+
+btn_select = noone;
+btn_select_hero = noone;
+btn_select_enemy = noone;

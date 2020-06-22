@@ -9,7 +9,11 @@
         "c7afdacc-1eed-49a9-af78-fd580d1048c6",
         "f5ea0c56-5eed-405c-a336-e67828187e06",
         "0065b3ca-ef8d-41f2-8b37-ddbd3c03dac9",
-        "0c1eecf1-0668-4601-9b5e-1cdc876996e4"
+        "e184750e-7ba8-45a6-9d86-15409efa68e2",
+        "45a9d388-3215-4498-b8f0-60a2c95255c0",
+        "baef5b39-01be-48e7-94ac-2a818a01f0fb",
+        "0c1eecf1-0668-4601-9b5e-1cdc876996e4",
+        "0709309b-7b65-448a-814a-3dbc4c8d69f1"
     ],
     "filterType": "GMObject",
     "folderName": "GUI_Battle",

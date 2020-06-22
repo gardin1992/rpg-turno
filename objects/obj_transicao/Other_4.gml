@@ -5,7 +5,9 @@ escurecer = false;
 
 obj_player.x = xx;
 obj_player.y = yy;
-
+obj_player.init_y = yy;
+obj_player.init_x = xx;
+		
 // entrando na room de batalha
 if (room == rm_batalha_verao)
 {
@@ -17,6 +19,7 @@ if (room == rm_batalha_verao)
 		image_index = 0;
 		image_speed = 0;
 		alarm[0] = 5;
+		
 	}
 	
 	// Criando os inimigos

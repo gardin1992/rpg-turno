@@ -5,7 +5,7 @@ if (!instance_exists(obj_camera))
 
 if (!instance_exists(obj_player))
 {
-	instance_create_layer(400, 290, "Player", obj_player);
+	instance_create_layer(600, 290, "Player", obj_player);
 }
 
 if (!instance_exists(obj_control))
