@@ -47,6 +47,8 @@ ex = 0;
 lvl = 1;
 sorte = .003
 
+atk_speed = 10;
+
 defendendo = false;
 
 

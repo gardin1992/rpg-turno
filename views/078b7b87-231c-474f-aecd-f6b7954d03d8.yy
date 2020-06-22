@@ -8,7 +8,8 @@
         "74772969-7cc6-46e5-9cc0-b861257aeb34",
         "16948bfd-72be-4533-9ac5-26573462abe4",
         "4bc15ec4-6f33-403c-8508-79a2af370ffa",
-        "12ba6be9-15d0-4ac4-9a60-fbc2a510d81e"
+        "12ba6be9-15d0-4ac4-9a60-fbc2a510d81e",
+        "6c103f36-93a1-4850-9927-4a99659bd84d"
     ],
     "filterType": "GMSprite",
     "folderName": "ProgressBar_Mana",

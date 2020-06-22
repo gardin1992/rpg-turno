@@ -6,7 +6,8 @@
     "children": [
         "6253fb06-63a6-46b1-9f27-4b8bc8b75599",
         "fbe92be8-748f-462b-a253-e49a1fd68c16",
-        "0c6dc9ce-d98e-4e8d-bb97-7e67a99124cf"
+        "0c6dc9ce-d98e-4e8d-bb97-7e67a99124cf",
+        "512cf766-41c3-4744-9f0f-be17435cb017"
     ],
     "filterType": "GMSprite",
     "folderName": "ProgressBar_Stamina",

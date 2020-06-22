@@ -12,7 +12,8 @@
         "bd5f5598-56d8-4b26-a8b5-eb7510b963cd",
         "a35e0bc2-7266-4b19-830f-4447442fa641",
         "75d95622-14c4-4ab0-a045-f3fa8753b4cc",
-        "836d7309-6987-4a2c-8524-08e8f08841e6"
+        "836d7309-6987-4a2c-8524-08e8f08841e6",
+        "8bc66752-4dc9-486c-84e8-dd7b3822fd2b"
     ],
     "filterType": "GMSprite",
     "folderName": "ProgressBar_Healt",
